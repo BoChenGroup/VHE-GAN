@@ -1,0 +1,37 @@
+CONFIG_NAME: '3stages'
+
+DATASET_NAME: 'birds'
+EMBEDDING_TYPE: 'baseModel'
+DATA_DIR: '../data/birds'
+GPU_ID: '0'
+WORKERS: 4
+
+
+TREE:
+    BRANCH_NUM: 3
+    BASE_SIZE: 64
+
+
+TRAIN:
+    NET_G: ''
+    NET_D: ''
+    NET_MLP_IMG: ''
+    BATCH_SIZE: 8
+    MAX_EPOCH: 600
+    SNAPSHOT_INTERVAL: 2000
+    DISCRIMINATOR_LR: 0.00002
+    GENERATOR_LR: 0.00002
+    COEFF:
+      KL_theta1_LOSS: 0.001
+
+
+GAN:
+    EMBEDDING_DIM: 128
+    DF_DIM: 64
+    GF_DIM: 64
+    Z_DIM: 0
+    R_NUM: 2
+    B_CONDITION: True
+
+TEXT:
+    Theta1_DIMENSION: 256
