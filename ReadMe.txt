@@ -1,4 +1,4 @@
-This code is a demo for manuscript "Variational Hetero-Encoder Randomized Generative Adversarial Networks for Joint Image-Text Modeling", submitted to NeurIPS 2019.
+This code is a demo for manuscript "Variational Hetero-Encoder Randomized Generative Adversarial Networks for Joint Image-Text Modeling", submitted to ICLR 2020.
 
 VHE-StackGAN++: the demo for VHE-StackGAN++ on Birds. Please run 'main' directly.
 
